@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+.centralizar{
+  flex:1;
+  text-align: center;
+  background-image: url(C:\Users\rafae\Desktop\Cardápio\cardapio\src\components\pages\home\images\madeira-de-marrons-claro-imagem-de-fundo.jpg)
+}
+.lateralEsquerda{
+  flex:1;
+  width: 20%;
+  height: 100vh;
+  background-color: gray;
+  
+  
+}
+.lateralDireita{
+  flex:1;
+  width:20%;
+  height: 100vh;
+  background-color: gray;
+ 
+  
+}
+.Meio{
+  
+  width:60%;  
+  height: 100%;
+  text-align: center;
+  
+}
+.divCompleta{
+    display: flex;
+    width: 100%;
+    margin: 0 auto; 
+
+    
+}
