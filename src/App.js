@@ -1,24 +1,25 @@
-import logo from './logo.svg';
+import Navbar from './components/Navbar/Navbar';
 import './App.css';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+import Cervejas from './components/pages/cervejas';
+import Bebidas from './components/pages/bebidas';
+import Espetos from './components/pages/espetos';
+import Variados from './components/pages/variados';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  return (  
+    <Router>
+      <Routes>
+        <Route exact path = '/Bebidas' element={<Bebidas/>}></Route>
+        <Route exact path = '/Cervejas' element={<Cervejas/>}></Route>
+        <Route exact path = '/Espetos' element={<Espetos/>}></Route>
+        <Route exact path = '/Variados' element={<Variados/>}></Route>
+      </Routes>
+      <div>
+      <Navbar/>
     </div>
+    </Router>
+    
   );
 }
 
