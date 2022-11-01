@@ -21,10 +21,10 @@ function Navbar(){
                     <Link to='/Cervejas'>Cervejas</Link>
                 </li>
                 <li className={styles.item}>    
-                    <Link to='/espetos'>Espetos</Link>
+                    <Link to='/Espetos'>Espetos</Link>
                 </li>
                 <li className={styles.item}>
-                    <Link to='/variados'>Variados</Link>
+                    <Link to='/Variados'>Variados</Link>
                 </li>
             </ul>
       
