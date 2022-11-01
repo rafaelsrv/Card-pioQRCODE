@@ -1,6 +1,6 @@
 import styles from './bebidas.module.css'
 
-function bebidas() {
+function Bebidas() {
     return (
         <div className={styles.fundo} >
             <div></div>
@@ -23,4 +23,4 @@ function bebidas() {
         </div>
     )
 }
-export default bebidas
+export default Bebidas

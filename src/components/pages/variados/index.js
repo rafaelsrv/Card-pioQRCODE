@@ -1,6 +1,6 @@
 import styles from './variados.module.css'
 
-function variados() {
+function Variados() {
     return (
         <div className={styles.fundo} >
             <div></div>
@@ -23,4 +23,4 @@ function variados() {
         </div>
     )
 }
-export default variados
+export default Variados

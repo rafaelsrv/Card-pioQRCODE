@@ -1,6 +1,6 @@
 import styles from './espetos.module.css'
 
-function espetos() {
+function Espetos() {
     return (
         <div className={styles.fundo} >
             <div></div>
@@ -25,4 +25,4 @@ function espetos() {
         </div>
     )
 }
-export default espetos
+export default Espetos

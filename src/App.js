@@ -6,6 +6,7 @@ import Bebidas from './components/pages/bebidas';
 import Espetos from './components/pages/espetos';
 import Variados from './components/pages/variados';
 import FotoBoteco from './components/pages/home/images/fotoboteco.jpeg'
+import Home from './components/pages/home';
 
 function App() {
   return (  
@@ -21,6 +22,7 @@ function App() {
       <div className="lateralEsquerda"></div>
       <div className="Meio">
       <Routes>
+        <Route exact path = '/home' element={<Home/>}></Route>
         <Route exact path = '/Bebidas' element={<Bebidas/>}></Route>
         <Route exact path = '/Cervejas' element={<Cervejas/>}></Route>
         <Route exact path = '/Espetos' element={<Espetos/>}></Route>
