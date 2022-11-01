@@ -1,6 +1,28 @@
 .fundo{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-image: url(C:\Users\rafae\Desktop\Cardápio\cardapio\src\components\pages\home\images\3c650a149986773eb80c4a91a4139c48.jpg);
     background-size: 100%;
+    display:flex;
+    align-content: space-between;
+    
+    
+}
+
+.itens_list{
+    font-size: 15px;
+    color:aliceblue;
+    padding: 10px;
+    margin: 1em;
+    
+    
+
+}
+.div_list{
+    padding: 100px;
+}
+.titulo_list{
+    font-size: 20px;
+    color:aliceblue;
+    list-style-type: none;
 }
