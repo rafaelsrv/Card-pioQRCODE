@@ -1,10 +1,11 @@
-import FotoHeiniken from "./images/Heiniken.jpg"
+import styles from './cervejas.module.css'
+
 function Cervejas() {
     return (
-        <div >
-            <h1>Cervejas.</h1>
+        <div className={styles.fundo} >
+            
 
-            <h2><img src={FotoHeiniken} alt="Heiniken" ></img></h2>
+            
         </div>
     )
 }
