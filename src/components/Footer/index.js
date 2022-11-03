@@ -1,4 +1,4 @@
-import {BsInstagram, BsWhatsapp, BsLinkedin} from 'react-icons/bs'
+import {BsInstagram, BsWhatsapp, BsLinkedin, BsGithub} from 'react-icons/bs'
 import styles from './footer.module.css'
 import { Link } from 'react-router-dom'
 function Footer() {
@@ -18,6 +18,9 @@ function Footer() {
             </div>
             <div className={styles.iten3}>
                 <a href="https://www.linkedin.com/in/rafael-saraiva-b45aaa170/" target ="_blank" rel="noreferrer"><BsLinkedin/></a>
+            </div>
+            <div className={styles.iten4}>
+                <a href="https://github.com/rafaelsrv" target ="_blank" rel="noreferrer"><BsGithub/></a>
             </div>
             </div>
             
