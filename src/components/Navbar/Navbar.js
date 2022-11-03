@@ -12,7 +12,7 @@ function Navbar(){
        
             <ul className={styles.list}>
                 <li className={styles.item}>
-                    <Link to='/home'>Todos</Link>
+                    <Link to='/'>Todos</Link>
                 </li>
                 <li className={styles.item}>
                     <Link to='/Bebidas'>Bebidas</Link>

@@ -23,7 +23,7 @@ function App() {
       <div className="lateralEsquerda"></div>
       <div className="Meio">
       <Routes>
-        <Route exact path = '/home' element={<Home/>}></Route>
+        <Route exact path = '/' element={<Home/>}></Route>
         <Route exact path = '/Bebidas' element={<Bebidas/>}></Route>
         <Route exact path = '/Cervejas' element={<Cervejas/>}></Route>
         <Route exact path = '/Espetos' element={<Espetos/>}></Route>
