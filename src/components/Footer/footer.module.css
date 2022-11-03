@@ -27,7 +27,16 @@
     cursor: pointer;  
     
 }
-
-.itens a:hover{
+.iten2 a:visited{
+    color: white
+}
+.iten1 a:visited{
+    color: white
+}
+.iten1 a:hover{
     color: #ffbb33
 }
+.iten2 a:hover{
+    color: #ffbb33
+}
+
