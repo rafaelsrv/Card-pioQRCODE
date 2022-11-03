@@ -16,7 +16,7 @@ function Footer() {
             <div className={styles.iten2}>
             <a href="https://www.instagram.com/botecoo_do_tiao/" target="_blank" rel="noreferrer"><BsWhatsapp/></a>
             </div>
-            <div>
+            <div className={styles.iten3}>
                 <a href="https://www.linkedin.com/in/rafael-saraiva-b45aaa170/" target ="_blank" rel="noreferrer"><BsLinkedin/></a>
             </div>
             </div>
