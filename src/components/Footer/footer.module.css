@@ -39,6 +39,18 @@
 .iten2 a:hover{
     color: #ffbb33
 }
+.iten3 a:visited{
+    color: white
+}
+.iten4 a:visited{
+    color: white
+}
+.iten3 a:hover{
+    color: #ffbb33
+}
+.iten4 a:hover{
+    color: #ffbb33
+}
 .iten3{
 position:absolute;
     right: 80px;
@@ -46,7 +58,7 @@ position:absolute;
 }
 .iten4{
     position:absolute;
-        right: 80px;
+        right: 100px;
         
     }
 
