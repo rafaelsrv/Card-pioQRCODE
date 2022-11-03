@@ -7,6 +7,7 @@ import Espetos from './components/pages/espetos';
 import Variados from './components/pages/variados';
 import FotoBoteco from './components/pages/home/images/fotoboteco.jpeg'
 import Home from './components/pages/home';
+import Footer from './components/Footer';
 
 function App() {
   return (  
@@ -31,7 +32,7 @@ function App() {
       </div>
       <div className="lateralDireita"></div>
     </div>
-      
+      <Footer/>
     </Router>
     </div>
     
