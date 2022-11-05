@@ -1,6 +1,6 @@
 import Navbar from './components/Navbar/Navbar';
 import './App.css';
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+import {HashRouter as Router, Route, Routes} from 'react-router-dom'
 import Cervejas from './components/pages/cervejas';
 import Bebidas from './components/pages/bebidas';
 import Espetos from './components/pages/espetos';
