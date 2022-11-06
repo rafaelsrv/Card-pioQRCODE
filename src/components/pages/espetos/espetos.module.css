@@ -47,7 +47,7 @@
     display:block;
     color: aliceblue;
     width: 30%;
-    height: auto;
+    height: 100%;
     white-space: nowrap;
 }
 
@@ -56,7 +56,7 @@
     color: aliceblue;
     list-style-type: none;
     width: 30%;
-    height: auto;
+    height: 100%;
     white-space: nowrap;
 }
 
@@ -67,7 +67,7 @@
     
     float:left;
     width: 40%;
-    height: auto;
+    height: 100%;
     color: aliceblue;
     list-style-type: none;
 
