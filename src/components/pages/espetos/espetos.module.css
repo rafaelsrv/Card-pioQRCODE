@@ -9,7 +9,7 @@
 }
 
 .itens_list{
-    font-size: 15px;
+    font-size: 1vw;
     color:aliceblue;
     padding: 10px;
     margin: 1em;
@@ -17,12 +17,58 @@
     
 
 }
-.div_list{
-    padding: 100px;
-    text-align: center;
-}
+
 .titulo_list{
-    font-size: 20px;
+    font-size: 1.5vw;
     color:aliceblue;
     list-style-type: none;
+    text-align: center;
+    padding-top: 15%;
+    
+    
+    
+}
+
+.div_list{
+    padding: 10px;    
+    color:aliceblue;
+    padding-left: 10%;
+    padding-top: 5%;
+    display: flex;
+    
+    
+    
+    
+    
+}
+
+
+.divEsquerda{
+    display:block;
+    color: aliceblue;
+    width: 30%;
+    height: auto;
+    white-space: nowrap;
+}
+
+.divDireita{
+   
+    color: aliceblue;
+    list-style-type: none;
+    width: 30%;
+    height: auto;
+    white-space: nowrap;
+}
+
+    
+
+.divMeio{
+    
+    
+    float:left;
+    width: auto;
+    height: auto;
+    color: aliceblue;
+    list-style-type: none;
+
 }

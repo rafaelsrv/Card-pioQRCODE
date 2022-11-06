@@ -1,23 +1,53 @@
 import styles from './espetos.module.css'
 
+
+
 function Espetos() {
     return (
         <div className={styles.fundo} >
-            <div></div>
-            <div className={styles.div_list}>
-                <li className={styles.titulo_list}>ESPETOS </li>
-                <li className={styles.itens_list}>CARNE . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . .  . . . . . .  . . . .. . . . . . . . . . . . R$ 6,00</li>
-                <li className={styles.itens_list}>CARNE COM BACON . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . R$ 6,00</li>
-                <li className={styles.itens_list}>MEDALHÃO(CARNE+BACON) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . R$ 6,00</li>
-                <li className={styles.itens_list}>FRANGO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . R$ 6,00</li>
-                <li className={styles.itens_list}>SOBRECOXA DE FRANGO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . R$ 6,00</li>
-                <li className={styles.itens_list}>ASINHA DE FRANGO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . R$ 6,00</li>
-                <li className={styles.itens_list}>CORAÇÃO DE FRANGO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . R$ 6,00</li>
-                <li className={styles.itens_list}>PORCO COM BACON . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . R$ 6,00</li>
-                <li className={styles.itens_list}>PORCO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . .  . . . . . .  . .. R$ 6,00</li>
-                <li className={styles.itens_list}>TRIPA . . . . . . . . . . . . . . . . . . . . . .  . . . . .  . . . .  . . . . .. . . . . . . . . . . . . . . . . . . R$ 6,00</li>
-                <li className={styles.itens_list}>CORAÇÃO DE BOI . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . R$ 6,00</li>
+            
+            
+                     
+           <li className={styles.titulo_list}> ESPETOS </li>
+           <div className={styles.div_list}>
+                <div className={styles.divEsquerda}>              
+                <li className={styles.itens_list}> CARNE </li>
+                <li className={styles.itens_list}> CARNE COM BACON </li>
+                <li className={styles.itens_list}> CARNE COM BACON </li>
+                <li className={styles.itens_list}> CARNE COM BACON </li>
+                <li className={styles.itens_list}> CARNE COM BACON </li>
+                <li className={styles.itens_list}> CARNE COM BACON </li>
+                <li className={styles.itens_list}> CARNE COM BACON </li>
                 
+                </div>
+
+                <div className={styles.divMeio}>
+                <li className={styles.itens_list}>__________________________________________________</li>
+                <li className={styles.itens_list}>__________________________________________________</li>
+                <li className={styles.itens_list}>__________________________________________________</li>
+                <li className={styles.itens_list}>__________________________________________________</li>
+                <li className={styles.itens_list}>__________________________________________________</li>
+                <li className={styles.itens_list}>__________________________________________________</li>
+                <li className={styles.itens_list}>__________________________________________________</li>
+                <li className={styles.itens_list}>__________________________________________________</li>
+
+                </div>
+               
+                <div className={styles.divDireita}>
+                
+                <li className={styles.itens_list}> R$ 6,00 </li>
+                <li className={styles.itens_list}> R$ 6,00 </li>
+                <li className={styles.itens_list}> R$ 6,00 </li>
+                <li className={styles.itens_list}> R$ 6,00 </li>
+                <li className={styles.itens_list}> R$ 6,00 </li>
+                <li className={styles.itens_list}> R$ 6,00 </li>
+                <li className={styles.itens_list}> R$ 6,00 </li>
+                
+                
+               
+
+                </div>
+            
             
             </div>
 

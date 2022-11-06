@@ -2,6 +2,9 @@ import styles from './bebidas.module.css'
 
 function Bebidas() {
     
+
+
+    
     return (
         <div className={styles.fundo} >
             <div></div>
